@@ -10,7 +10,7 @@ Roll:- 210550154016
 		Algorithm
 1. Create two processes using fork().
 2. Create a file.txt using touch in the above mentioned directory.
-3. Scan the file and print it in file2.txt under process 2 of the second process.
+3. Scan the file and print it in file2.txt under process 2 of the second process using pipes.
 4. Find the length of string using strlen in file2.txt
 5. close all the files.
 */
