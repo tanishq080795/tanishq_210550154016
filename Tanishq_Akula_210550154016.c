@@ -18,14 +18,14 @@ Roll:- 210550154016
 #include <sys/types.h>
 #include <stdio.h>
 int main( ){
-   pid_t child_pid;
-   child_pid = fork ();
-   if (child_pid < 0) {
+   pid_t child_a;
+   child_a = fork ();
+   if (child_a < 0) {
       printf("fork failed");
       return 1;
-   } else if (child_pid == 0) {
-      printf ("child process successfully created!\n");
-      printf ("child_PID = %d,parent_PID = %d\n",
+   } else if (child_a == 0) {
+      printf ("child_a process successfully created!\n");
+      printf ("child_a_PID = %d,parent_PID = %d\n",
       getpid(), getppid( ) );
    }
    return 0;
