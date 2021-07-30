@@ -27,10 +27,6 @@ int main( ){
       printf ("child process successfully created!\n");
       printf ("child_PID = %d,parent_PID = %d\n",
       getpid(), getppid( ) );
-   } else {
-      
-      printf ("parent process successfully created!\n");
-      printf ("child_PID = %d, parent_PID = %d", getpid( ), getppid( ) );
    }
    return 0;
 }
