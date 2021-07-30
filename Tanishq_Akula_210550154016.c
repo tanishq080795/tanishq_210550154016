@@ -15,7 +15,6 @@ Roll:- 210550154016
 5. close all the files.
 */
 #include <unistd.h>
-#include <sys/types.h>
 #include <stdio.h>
 int main( ){
    pid_t child_a;
