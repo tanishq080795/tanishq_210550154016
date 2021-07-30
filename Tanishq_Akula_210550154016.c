@@ -25,8 +25,8 @@ int main( ){
       return 1;
    } else if (child_a == 0) {
       printf ("child_a process successfully created!\n");
-      printf ("child_a_PID = %d,parent_PID = %d\n",
-      getpid(), getppid( ) );
+      printf ("child_a_PID = %d\n",
+      getpid());
    }
    return 0;
 }
